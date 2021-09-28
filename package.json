@@ -1,0 +1,27 @@
+{
+  "name": "nuxt-i18n-example",
+  "version": "1.0.0",
+  "description": "nuxt-i18n showcase project based on nuxt-starter template",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "5.10.1",
+    "nuxt": "2.12.2",
+    "nuxt-i18n": "6.10.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "2.0.2",
+    "eslint": "7.0.0",
+    "eslint-loader": "4.0.2"
+  },
+  "engines": {
+    "node": ">=10.x"
+  }
+}
